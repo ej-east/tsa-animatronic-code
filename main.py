@@ -8,16 +8,12 @@ The other screen will showcase a slideshow of images that go along with the PDF.
 """
 
 import os
-import sys
 import tkinter as tk
 from tkinter import filedialog, messagebox
 import fitz  # PyMuPDF
-import pygame
 from PIL import Image, ImageTk
 import pyttsx3
 import threading
-import time
-from pathlib import Path
 
 
 class PDFReader:
